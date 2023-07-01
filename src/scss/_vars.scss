@@ -1,8 +1,11 @@
 // base
-$font-family: "Open Sans", sans-serif;
-$content-width: 1170px;
-$container-offset: 15px;
+$font-family: "Raleway";
+$content-width: 1216px;
+$container-offset: 48px;
 $container-width: calc($content-width + ($container-offset * 2));
 
 // colors
-$light-color: #fff;
+$light-color: #f6f3e3;
+$border: #bfbdb2;
+$dark-color: #241d1c;
+$hover-color: #efe7be;

@@ -1,0 +1,21 @@
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $border;
+    padding-top: 16px;
+    padding-bottom: 17px;
+  }
+
+  &__navigation {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-right: 54px;
+
+    @include small-tablet {
+      display: none;
+    }
+  }
+}
