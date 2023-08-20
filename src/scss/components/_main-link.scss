@@ -1,0 +1,29 @@
+.main-link {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 13px 46px;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $dark-color;
+  background: $light-color;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: 1px solid #fff;
+  }
+
+  &:hover:not(:disabled) {
+    background: $hover-color;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+  }
+
+  @include mobile {
+    padding: 10px 24px;
+    font-size: 12px;
+  }
+}
